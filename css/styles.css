@@ -178,3 +178,8 @@
     .split-log div h2 {
         margin: 2em;
     }
+
+    #img {
+        text-align: center;
+        margin-bottom: 100px;
+    }
