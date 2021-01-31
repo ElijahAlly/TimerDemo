@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Musa's Stopwatch</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+
+
+<body>
+    <header class="header">
+        <h1>Musa's Stopwatch</h1>
+    </header>
+
+    <main>
+        <!-- Buttons -->
+        <section class="buttons">
+
+            <h1 id="timer">00 : 00 : 00 : 000</h1>
+            <button id="toggle">Start</button>
+            <button id="reset">Reset</button>
+            <button id="split">Split</button>
+            <button id="splitLogReset">Split Reset</button>
+        </section>
+
+        <Section class="split-log">
+            <div>
+                <div>
+                    <h1>Log</h1>
+                    <h2>Split At:</h2>
+                </div>
+            </div>
+            <div>
+                <h3 id="splitTimeCount1">0</h3>
+                <h3 id="splitTime1">00 : 00 : 00 : 000</h3>
+            </div>
+            <div>
+                <h3 id="splitTimeCount2"></h3>
+                <h3 id="splitTime2"></h3>
+            </div>
+            <div>
+                <h3 id="splitTimeCount3"></h3>
+                <h3 id="splitTime3"></h3>
+            </div>
+            <div>
+                <h3 id="splitTimeCount4"></h3>
+                <h3 id="splitTime4"></h3>
+            </div>
+            <div>
+                <h3 id="splitTimeCount5"></h3>
+                <h3 id="splitTime5"></h3>
+            </div>
+        </Section>
+
+    </main>
+
+    <!-- Importing Js -->
+    <script src="js/stopwatch.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+</html>
