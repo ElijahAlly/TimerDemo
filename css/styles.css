@@ -56,11 +56,11 @@
 /* Timer */
     font-family: 'Exo 2', sans-serif;
     font-size: 70%;
-    margin: auto;
+/*     margin: auto; */
     text-align: center;
-    padding-top: 1px;
+/*     padding-top: 1px;
     padding-bottom: 2px;
-    border-radius: 12px;
+    border-radius: 12px; */
     }
 /* Buttons */
     .buttons {
@@ -69,7 +69,7 @@
         text-align: center;
         padding-top: 21px;
         margin: 0 1em 0 1em;
-        margin: fixed;
+/*         margin: fixed; */
 
     }
 
