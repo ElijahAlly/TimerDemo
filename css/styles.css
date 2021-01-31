@@ -8,7 +8,6 @@
 
 
 
-
 /* Header */
     * {
         margin: 0;
@@ -44,7 +43,7 @@
 
     .header h1 {
         font-family: 'Exo 2', sans-serif;
-        font-size: 200%;
+        font-size: 160%;
         margin: auto;
         text-align: center;
         padding-top: 1px;
@@ -54,14 +53,15 @@
 
 
 /* Timer */
+  #timer {
     font-family: 'Exo 2', sans-serif;
-/*     font-size: 70%; */
-/*     margin: auto; */
-/*     text-align: center; */
-/*     padding-top: 1px;
+    font-size: 70%;
+    margin: auto;
+    text-align: center;
+    padding-top: 1px;
     padding-bottom: 2px;
-    border-radius: 12px; */
-    }
+    border-radius: 12px; 
+   }
 /* Buttons */
     .buttons {
         font-family: 'Exo 2', sans-serif;
@@ -69,7 +69,7 @@
         text-align: center;
         padding-top: 21px;
         margin: 0 1em 0 1em;
-/*         margin: fixed; */
+        margin: fixed;
 
     }
 
